@@ -62,7 +62,7 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -106,7 +106,7 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -120,6 +120,36 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+/* start team */
+#team .team-wrapper
+	{
+		background: #ffffff;
+		padding-bottom: 10px;
+		-webkit-transition: all 0.4s ease-in-out;
+		        transition: all 0.4s ease-in-out;
+		position: relative;
+	}
+#team .team-wrapper:hover
+	{
+		cursor: pointer;
+		opacity: 0.4;
+		bottom: 4px;
+	}
+#team .team-wrapper .team-des
+	{
+		padding: 20px;
+	}
+#team .team-wrapper .team-des span
+	{
+		color: #28a7e9;
+		display: block;
+		font-weight: bold;
+		padding-bottom: 12px;
+	}
+/* end team */
+
+
 #header {
   position: fixed;
   top: 0;
